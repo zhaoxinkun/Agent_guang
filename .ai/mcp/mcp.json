@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "my-mcp-server": {
+      "command": "node",
+      "args": [
+        "/Users/onecnjack/Agent_Study/shenguang/src/my-mcp-server.js"
+      ]
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/onecnjack/Desktop"
+      ]
+    },
+    "amap-maps-streamableHTTP": {
+      "url": "https://mcp.amap.com/mcp?key=d3c597cab3c07a960fe2b7cfcd892ef2"
+    }
+  }
+}

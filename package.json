@@ -2,8 +2,8 @@
   "name": "shenguang",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
-  "types": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,10 +17,13 @@
       "onFail": "download"
     }
   },
-  "type": "module",
   "dependencies": {
     "@langchain/core": "^1.2.9",
+    "@langchain/mcp-adapters": "^1.1.4",
     "@langchain/openai": "^1.5.11",
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "@modelcontextprotocol/server-filesystem": "^2026.8.31",
+    "chrome-devtools-mcp": "^1.8.0",
     "langchain": "^1.5.10"
   },
   "devDependencies": {
